@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,600;1,800;1,1000&display=swap");
+@import url("https://db.onlinewebfonts.com/c/a1d5522f913d9bd1eca5adbfdb6fd287?family=AspiraW01-Regular");
+
+@font-face {
+  font-family: "AspiraW01-Regular";
+  src: url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.eot?#iefix")
+      format("embedded-opentype"),
+    /* IE6-IE8 */
+      url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.woff2")
+      format("woff2"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.woff")
+      format("woff"),
+    /* chrome firefox */
+      url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.ttf")
+      format("truetype"),
+    /* chrome firefox opera Safari, Android, iOS 4.2+*/
+      url("http://db.onlinewebfonts.com/t/a1d5522f913d9bd1eca5adbfdb6fd287.svg#AspiraW01-Regular")
+      format("svg"); /* iOS 4.1- */
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Color Variables */
+:root {
+  --Border-radius: 4px;
+  --Background: #ffffff;
+  --Cyan-Color: #13b5ea;
+  --Gradient: linear-gradient(225deg, #13b5ea 0%, #0798bf 74.27%);
+  --white-primary: #ffffff;
+  --Gray: #cfcfcf;
+  --Border-color: #c6c7c8;
+  --Screen-overlay: rgba(133, 133, 133, 0.8);
+  --Card-color: #f8f8f8;
+  --Lapis-blue-primary: #236f8e;
+  --Dark-blue-1: #1f5c75;
+  --Dark-blue-2: #1d4e62;
+  --Dark-blue-3: #193b49;
+  --Dark-blue-4: #162d37;
+  --Dark-blue-4: #15242a;
+  --Gray-black: #121617;
+  --Light-blue-1: #4f8ca5;
+  --Light-blue-2: #70a1b6;
+  --Light-blue-3: #9cbecc;
+  --Light-blue-4: #bdd4dd;
+  --Light-blue-5: #d3e2e8;
+  --Light-blue-6: #f4f8f9;
+}
+
+body {
+  font-family: mulish;
+}
