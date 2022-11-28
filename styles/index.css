@@ -54,5 +54,28 @@
 }
 
 body {
-  font-family: mulish;
+  font-family: mulish, sans-serif;
+}
+
+.errorMessage {
+  width: 50%;
+  height: fit-content;
+  border: 1px solid #fa3a33de;
+  background-color: var(--Light-blue-6);
+  color: var(--Cyan-Color);
+  text-align: center;
+  padding: 1rem 0;
+  border-radius: var(--Border-radius);
+}
+
+.noError {
+  display: none;
+}
+
+@media (max-width: 700px) {
+  .errorMessage {
+    width: 100%;
+    height: 40px;
+    padding: 0.8rem 0;
+  }
 }

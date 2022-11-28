@@ -1,30 +1,35 @@
 .resetPwdSuccessContainer {
   width: 100%;
-  height: 80vh;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-.resetPwdSuccessWrapper {
-  width: 40%;
-  height: 80%;
+.ResetPasswordWrapper {
   display: flex;
   align-items: center;
+  line-height: 1.4rem;
   justify-content: space-evenly;
   flex-direction: column;
-  margin-top: -4rem;
+  padding: 1rem;
+  width: 40% !important;
+  height: 80vh;
 }
 
 .resetPwdHeaderImg {
   height: 6rem;
   width: 10rem;
   border-radius: 0px;
+  object-fit: cover;
+}
+.pwdResetSuccessImg {
+  height: 10rem;
+  width: 12rem;
+  border-radius: 0px;
+  object-fit: contain;
 }
 
 .checkYourEmail {
-  width: 495px;
-  height: 40px;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -32,8 +37,6 @@
   text-align: center;
   color: #121617;
   flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 .messageSentToYourEmail {
@@ -51,7 +54,7 @@
   justify-content: center;
   align-items: center;
   padding: 16px 24px;
-  width: 496px;
+  width: 100%;
   height: 51px;
   background: var(--Cyan-Color);
   border-radius: var(--Border-radius);
@@ -78,7 +81,7 @@
   color: var(--Gray-black);
 }
 
-.ResendLink .anchoLink {
+.anchoLink {
   color: var(--Cyan-Color);
   text-decoration: none;
   margin-left: 1rem;
@@ -87,4 +90,34 @@
 
 .ResendLink .anchoLink:hover {
   color: var(--Lapis-blue-primary);
+}
+
+@media (max-width: 1200px) {
+  .ResetPasswordWrapper {
+    width: 70% !important;
+  }
+  .submitButton {
+    font-size: 0.9rem;
+    height: 40px;
+  }
+
+  .resetPwdHeaderImg {
+    height: 4rem;
+    width: 6rem;
+  }
+  .checkYourEmail {
+    font-size: 1rem;
+  }
+  .messageSentToYourEmail {
+    font-size: 0.9rem;
+  }
+  .anchoLink {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .ResetPasswordWrapper {
+    width: 100% !important;
+  }
 }

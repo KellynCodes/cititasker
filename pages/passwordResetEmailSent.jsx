@@ -1,36 +1,43 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import styles from "../styles/PwdResetEmailSent.module.css";
+import Link from "next/link";
 import Head from "next/Head";
+import passwordResetEmailSent from "./passwordResetSuccessfull";
 
 const passwordResetSuccessfull = () => {
   return (
     <>
       <Head>
-        <title>CitiTasker | password Recover success</title>
+        <title>CitiTasker | password Reset success</title>
         <meta name="description" content="CitiTasker" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
       <div className={styles.resetPwdSuccessContainer}>
-        <div className={styles.ResetPasswordWrapper}>
+        <div className={styles.resetPwdSuccessWrapper}>
           <img
             src="resetPwdSuccess.svg"
             alt=""
-            className={styles.resetPwdHeaderImg}
+            className={styles.pwdResetSuccessImg}
           />
-          <h3 className={styles.checkYourEmail}>Password Reset</h3>
+          <h3 className={styles.checkYourEmail}>Check your email</h3>
           <p className={styles.messageSentToYourEmail}>
-            Your password have been successfully reset. Click continue to access
-            you account.
+            We sent a password reset link to example@cititasker.com
           </p>
           <button className={styles.submitButton} type="submit">
-            Continue
+            Open mail app
           </button>
+          <h5 className={styles.ResendLink}>
+            Didn’t receive the email?
+            <Link href="mail" className={styles.anchoLink}>
+              Click to resend
+            </Link>
+          </h5>
         </div>
       </div>
     </>
   );
 };
 
-export default passwordResetSuccessfull;
+export default passwordResetEmailSent;
