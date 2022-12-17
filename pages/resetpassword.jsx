@@ -10,7 +10,7 @@ const resetPassword = () => {
   const [message, setMessage] = useState("");
   const [error, setError] = useState(false);
 
-  const ValidateInput = () => {
+  const validateInput = () => {
     if (passwordInput.trim() == "" && confirmPasswordInput.trim() == "") {
       setError(true);
       setMessage("Field is empty");
@@ -98,7 +98,7 @@ const resetPassword = () => {
             <div className={error ? "errorMessage" : "noError"}>{message}</div>
             <button
               className={styles.submitButton}
-              onClick={ValidateInput}
+              onClick={validateInput}
               type="submit"
             >
               Reset Password
