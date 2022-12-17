@@ -1,0 +1,149 @@
+.emailVerificationExpiredContainer {
+  width: 100%;
+  height: 88vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.emailVerificationExpired {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.emailVerificationExpiredImage {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 0px;
+  margin-top: 1rem;
+}
+
+.MessagePart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 20rem;
+  width: 100%;
+}
+
+.MessagePart p {
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.MessagePartTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 5rem;
+  width: 100%;
+}
+
+.MessagePartTop h2 {
+}
+
+.MessagePartBottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 60%;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.ResendLinkButton {
+  height: 49px;
+  width: 50%;
+  border-radius: 4px;
+  background-color: var(--Background-Cyan);
+  text-decoration: none;
+  color: var(--white-primary);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ResendLinkButton:hover {
+  background: var(--Gradient);
+}
+
+.MessagePartBottom .clickHere:last-child {
+  text-decoration: none;
+  margin-right: 0.4rem;
+  color: var(--Background-Cyan);
+}
+
+.MessagePartBottom .clickHere:hover {
+  text-decoration: underline;
+}
+
+.MessagePartBottom p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .emailVerificationExpired {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .emailVerificationExpiredContainer {
+    overflow-x: hidden !important;
+  }
+
+  .emailVerificationExpired {
+    width: 95%;
+    height: 86vh;
+    margin-top: 0.5rem;
+    justify-content: space-evenly;
+  }
+
+  .emailVerificationExpiredImage {
+    width: 10rem;
+    height: 10rem;
+    margin-bottom: 1rem;
+  }
+
+  .MessagePartTop h2 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+
+  .MessagePartTop p {
+    font-size: 0.9rem;
+  }
+
+  .ResendLinkButton {
+    width: 70%;
+    height: 2.5rem;
+    font-size: 0.9rem;
+  }
+
+  .MessagePartBottom {
+    justify-content: space-evenly;
+  }
+
+  .MessagePartBottom p {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    letter-spacing: 1px;
+  }
+}

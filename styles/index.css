@@ -31,6 +31,7 @@
 :root {
   --Border-radius: 4px;
   --Background: #ffffff;
+  --Background-Cyan: #0ba6d8;
   --Cyan-Color: #13b5ea;
   --Gradient: linear-gradient(225deg, #13b5ea 0%, #0798bf 74.27%);
   --white-primary: #ffffff;
@@ -54,7 +55,7 @@
 }
 
 body {
-  font-family: mulish, sans-serif;
+  font-family: Aspira, sans-serif;
 }
 
 .errorMessage {
