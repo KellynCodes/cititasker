@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/Navbar.module.css";
 
-const index = () => {
+const Navbar = () => {
   return (
     <div className={styles.navbarContainer}>
       <div className={styles.navbarWrapper}>
@@ -13,4 +13,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Navbar;
