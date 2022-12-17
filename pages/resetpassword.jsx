@@ -1,7 +1,6 @@
-import Link from "next/link";
 import styles from "../styles/ResetPassword.module.css";
 import Navbar from "../components/Navbar";
-import { useState, React, useEffect } from "react";
+import { useState, React } from "react";
 import Head from "next/Head";
 const resetPassword = () => {
   const [password, setPassword] = useState(true);
