@@ -2,7 +2,7 @@ import styles from "../styles/ResetPassword.module.css";
 import Navbar from "../components/Navbar";
 import { useState, React } from "react";
 import Head from "next/Head";
-const resetPassword = () => {
+const ResetPassword = () => {
   const [password, setPassword] = useState(true);
   const [passwordInput, setPasswordInput] = useState("");
   const [confirmPassword, setConfirmPassword] = useState(true);
@@ -110,4 +110,4 @@ const resetPassword = () => {
   );
 };
 
-export default resetPassword;
+export default ResetPassword;
