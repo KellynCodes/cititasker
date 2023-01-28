@@ -2,6 +2,8 @@ import styles from "../styles/ResetPassword.module.css";
 import Navbar from "./Navbar";
 import { useState, React } from "react";
 import Head from "next/Head";
+import Image from "next/image";
+
 const ResetPassword = () => {
   const [password, setPassword] = useState(true);
   const [passwordInput, setPasswordInput] = useState("");
@@ -63,13 +65,15 @@ const ResetPassword = () => {
                   setPasswordInput(e.target.value);
                 }}
               />
-              <img
-                src={password ? "eye-slash-fill.svg" : "eye.svg"}
+              <Image
+                src={password ? "/eye-slash-fill.svg" : "/eye.svg"}
                 alt="hide-password"
                 className={styles.hidePassword}
                 onClick={() =>
                   password ? setPassword(false) : setPassword(true)
                 }
+                width={72}
+                height={16}
               />
             </div>
             <div className={styles.inputContainer}>
@@ -84,8 +88,8 @@ const ResetPassword = () => {
                   setConfirmPasswordInput(e.target.value);
                 }}
               />
-              <img
-                src={confirmPassword ? "eye-slash-fill.svg" : "eye.svg"}
+              <Image
+                src={confirmPassword ? "/eye-slash-fill.svg" : "/eye.svg"}
                 alt="hide-password"
                 className={styles.hidePassword}
                 onClick={() =>
@@ -93,6 +97,8 @@ const ResetPassword = () => {
                     ? setConfirmPassword(false)
                     : setConfirmPassword(true)
                 }
+                width={72}
+                height={16}
               />
             </div>
             <div className={error ? "errorMessage" : "noError"}>{message}</div>

@@ -3,9 +3,9 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/PwdResetEmailSent.module.css";
 import Link from "next/link";
 import Head from "next/Head";
-import passwordResetEmailSent from "./passwordResetSuccessfull";
+import Image from "next/image";
 
-const passwordResetSuccessfull = () => {
+const passwordResetEmailSent = () => {
   return (
     <>
       <Head>
@@ -16,10 +16,12 @@ const passwordResetSuccessfull = () => {
       <Navbar />
       <div className={styles.resetPwdSuccessContainer}>
         <div className={styles.resetPwdSuccessWrapper}>
-          <img
-            src="resetPwdSuccess.svg"
+          <Image
+            src="/resetPwdSuccess.svg"
             alt=""
             className={styles.pwdResetSuccessImg}
+            width={72}
+            height={16}
           />
           <h3 className={styles.checkYourEmail}>Check your email</h3>
           <p className={styles.messageSentToYourEmail}>

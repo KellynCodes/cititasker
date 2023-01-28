@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Head from "next/Head";
 import styles from "../styles/EmailVerificationExpired.module.css";
+import Image from "next/image";
 
 const emailVerificationExpired = () => {
   return (
@@ -14,10 +15,12 @@ const emailVerificationExpired = () => {
       <Navbar />
       <div className={styles.emailVerificationExpiredContainer}>
         <div className={styles.emailVerificationExpired}>
-          <img
-            src="emailVerificationExpired.jpg"
+          <Image
+            src="/emailVerificationExpired.jpg"
             alt="emailMessage Box Image"
             className={styles.emailVerificationExpiredImage}
+            width={72}
+            height={16}
           />
 
           <div className={styles.MessagePart}>

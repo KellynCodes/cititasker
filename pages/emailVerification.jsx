@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import styles from "../styles/PwdResetEmailSent.module.css";
 import Link from "next/link";
 import Head from "next/Head";
+import Image from "next/image";
 
 const emailVerification = () => {
   return (
@@ -15,10 +16,12 @@ const emailVerification = () => {
       <Navbar />
       <div className={styles.resetPwdSuccessContainer}>
         <div className={styles.ResetPasswordWrapper}>
-          <img
-            src="resetPwdSuccess.svg"
+          <Image
+            src="/resetPwdSuccess.svg"
             alt=""
             className={styles.resetPwdHeaderImg}
+            width={72}
+            height={16}
           />
           <h3 className={styles.checkYourEmail}>
             Verify your email to proceed
