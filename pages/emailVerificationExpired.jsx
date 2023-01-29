@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import Head from "next/Head";
+import Head from "next/head";
 import styles from "../styles/EmailVerificationExpired.module.css";
 import Image from "next/image";
 

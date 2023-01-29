@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "../styles/ResetPassword.module.css";
 import Navbar from "../components/Navbar";
-import Head from "next/Head";
+import Head from "next/head";
 const enterEmailToResetPassword = () => {
   return (
     <>

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import styles from "../styles/PwdResetEmailSent.module.css";
 import Link from "next/link";
-import Head from "next/Head";
+import Head from "next/head";
 import Image from "next/image";
 
 const emailVerification = () => {
