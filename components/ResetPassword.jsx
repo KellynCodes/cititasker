@@ -1,7 +1,7 @@
 import styles from "../styles/ResetPassword.module.css";
 import Navbar from "./Navbar";
 import { useState, React } from "react";
-import Head from "next/Head";
+import Head from "next/head";
 import Image from "next/image";
 
 const ResetPassword = () => {
