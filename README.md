@@ -56,7 +56,7 @@ __This site is hosted on Vercel and Netlify as well__
 
 ### 4. Pages
 - [Index page](https://cititasker.netlify.app/)
-- [resetPassword](https://cititasker.netlify.app/recetpassword)
+- [resetPassword](https://cititasker.netlify.app/resetpassword)
 - [emailVerification](https://cititasker.netlify.app/emailVerification)
 - [emailVerificationExpired](https://cititasker.netlify.app/enterEmailToResetPassword/)
 - [passwordResetSuccessfull](https://cititasker.netlify.app/passwordResetSuccessfull)
