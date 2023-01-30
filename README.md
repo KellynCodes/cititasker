@@ -38,3 +38,24 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 All the code variables and global styles are stored in the **index.css** file.
 
 1. The styles for the different pages like ResetPassword.module.css, PwdResetEmailSent.module.css, contains all the designs for orther pages which does'nt have default styles. 
+
+2. Links to access different pages of this project are:
+- /
+- /resetPassword
+- /emailVerification
+- /emailVerificationExpired
+- /enterEmailToResetPassword
+- /passwordResetSuccessfull
+
+## 3. Demo Links
+__This site is hosted on Vercel and Netlify as well__
+
+[x] [Vercel Domain](https://cititaskerr.vercel.app)
+[x] [Nelify Domain](https://cititasker.netlify.app)
+
+### 4. Pages
+- [Index page](https://cititasker.netlify.app/)
+- [resetPassword](https://cititasker.netlify.app/recepassword)
+- [emailVerification](https://cititasker.netlify.app/emailVerification)
+- [emailVerificationExpired](https://cititasker.netlify.app/enterEmailToResetPassword/)
+- [passwordResetSuccessfull](https://cititasker.netlify.app/passwordResetSuccessfull)
