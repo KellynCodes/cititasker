@@ -39,7 +39,7 @@ All the code variables and global styles are stored in the **index.css** file.
 
 1. The styles for the different pages like ResetPassword.module.css, PwdResetEmailSent.module.css, contains all the designs for orther pages which does'nt have default styles. 
 
-2. Links to access different pages of this project are:
+##  2, Links to access different pages of this project are:
 - /
 - /resetPassword
 - /emailVerification
