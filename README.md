@@ -50,9 +50,9 @@ All the code variables and global styles are stored in the **index.css** file.
 ## 3. Demo Links
 __This site is hosted on Vercel and Netlify as well__
 
-[x] [Vercel Domain](https://cititaskerr.vercel.app)
+* [x] [Vercel Domain](https://cititaskerr.vercel.app)
 
-[x] [Nelify Domain](https://cititasker.netlify.app)
+* [x] [Nelify Domain](https://cititasker.netlify.app)
 
 ### 4. Pages
 - [Index page](https://cititasker.netlify.app/)
