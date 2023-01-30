@@ -20,8 +20,8 @@ const passwordResetEmailSent = () => {
             src="/resetPwdSuccess.svg"
             alt="Recet_password_successfull_img"
             className={styles.pwdResetSuccessImg}
-            width={72}
-            height={16}
+            width={700}
+            height={500}
           />
           <h3 className={styles.checkYourEmail}>Check your email</h3>
           <p className={styles.messageSentToYourEmail}>

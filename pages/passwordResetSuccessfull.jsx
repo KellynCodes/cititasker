@@ -19,8 +19,8 @@ const passwordResetSuccessfull = () => {
             src="/resetPwdSuccess.svg"
             alt=""
             className={styles.resetPwdHeaderImg}
-            width={72}
-            height={16}
+            width={600}
+            height={400}
           />
           <h3 className={styles.checkYourEmail}>Password Reset</h3>
           <p className={styles.messageSentToYourEmail}>

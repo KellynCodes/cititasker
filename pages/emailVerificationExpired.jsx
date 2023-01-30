@@ -19,8 +19,8 @@ const emailVerificationExpired = () => {
             src="/emailVerificationExpired.jpg"
             alt="emailMessage Box Image"
             className={styles.emailVerificationExpiredImage}
-            width={72}
-            height={16}
+            width={600}
+            height={400}
           />
 
           <div className={styles.MessagePart}>

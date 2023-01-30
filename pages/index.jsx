@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Image from "next/image";
 
 const index = () => {
   return (
@@ -11,7 +12,19 @@ const index = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className="Home">Welcome to CitiTasker User.name</div>
+      <center>
+        <h3>Welcome to CitiTasker User.name</h3>
+      </center>
+      <div className="Home">
+        <Image
+          src="/hero_image.jpg"
+          height={700}
+          width={1000}
+          background
+          alt="Hero_image"
+          className="hero_image"
+        />
+      </div>
     </>
   );
 };

@@ -20,8 +20,8 @@ const emailVerification = () => {
             src="/resetPwdSuccess.svg"
             alt=""
             className={styles.resetPwdHeaderImg}
-            width={72}
-            height={16}
+            width={600}
+            height={400}
           />
           <h3 className={styles.checkYourEmail}>
             Verify your email to proceed
@@ -33,7 +33,7 @@ const emailVerification = () => {
               className={styles.anchoLink}
             >
               example@cititasker.com.
-            </Link>{" "}
+            </Link>
             Click the link on your email to help us verify your account.
           </p>
           <button className={styles.submitButton} type="submit">
