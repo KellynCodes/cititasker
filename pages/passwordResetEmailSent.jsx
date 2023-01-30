@@ -14,11 +14,11 @@ const passwordResetEmailSent = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className={styles.resetPwdSuccessContainer}>
-        <div className={styles.resetPwdSuccessWrapper}>
+      <div className={styles.PwdResetEmailSentContainer}>
+        <div className={styles.PwdResetEmailSentWrapper}>
           <Image
             src="/resetPwdSuccess.svg"
-            alt=""
+            alt="Recet_password_successfull_img"
             className={styles.pwdResetSuccessImg}
             width={72}
             height={16}

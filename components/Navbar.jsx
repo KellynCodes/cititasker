@@ -11,8 +11,8 @@ const Navbar = () => {
             src="/logo.png"
             alt=""
             className={styles.logo_img}
-            width={72}
-            height={16}
+            width={100}
+            height={100}
           />
         </div>
       </div>
