@@ -51,11 +51,12 @@ All the code variables and global styles are stored in the **index.css** file.
 __This site is hosted on Vercel and Netlify as well__
 
 [x] [Vercel Domain](https://cititaskerr.vercel.app)
+
 [x] [Nelify Domain](https://cititasker.netlify.app)
 
 ### 4. Pages
 - [Index page](https://cititasker.netlify.app/)
-- [resetPassword](https://cititasker.netlify.app/recepassword)
+- [resetPassword](https://cititasker.netlify.app/recetpassword)
 - [emailVerification](https://cititasker.netlify.app/emailVerification)
 - [emailVerificationExpired](https://cititasker.netlify.app/enterEmailToResetPassword/)
 - [passwordResetSuccessfull](https://cititasker.netlify.app/passwordResetSuccessfull)
